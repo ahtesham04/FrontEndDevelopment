@@ -1,0 +1,135 @@
+#container{
+    width: 1050px;
+/*    border: 1px solid gray;*/
+    margin: 0 auto;
+    
+}
+
+#header{
+    height: 100px;
+    padding: 10px 0px;
+}
+#brand{
+    float: left;
+}
+
+#searchBox{
+    float: right;
+    width: 400px;
+    height: 50px;
+    background: linear-gradient(#38f269,#c6f5d3);
+    padding: 20px 20px 0px 20px;
+    margin-top: 10px;
+}
+
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: orange;
+    background: white url(images/search.png) right center no-repeat;
+}
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    background: #afa1bf;
+    color: white;
+    font-size: 15px;
+}
+.clear{
+    clear: both;
+}
+#menu{
+    height: 70px;
+    background: linear-gradient(#dce067,#b6ba2f);
+    padding: 7px 0;
+}
+ul{
+    list-style: none;
+}
+#menu ul li{
+    float: left;
+    padding: 0 30px;
+    height: 20px;
+    border-right: 1px solid black;
+}
+#menu ul li:last-child{
+    border-right: none;
+}
+#menu ul li a{
+    text-decoration: none;
+    font-size: 17px;
+    list-style: 30px;
+    transition: font-size 0.3s ease;
+}
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 20px;
+    font-weight: bold;
+    color: #8920c9;
+}
+
+#introduction{
+    background: linear-gradient(#cffca4,#92d651);
+    padding: 30px;
+    margin: 10px 0;
+}
+#introduction h3{
+    font-size: 45px;
+    color: #5ca318;
+    font-weight: normal;
+}
+#introduction p{
+    font-size: 25px;
+    color: #5ca318;
+    font-weight: normal;
+    text-align: justify;
+}
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: purple;
+    text-decoration: none;
+}
+.sidebar{
+    height: 500px;
+    width: 400px;
+    border: 1px solid #785911;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.sidebar h3{
+    color: #8920c9;
+    font-size: 30px;
+    
+}
+.sidebar ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    transition: font-size 0.3s ease;
+}
+.sidebar ul li a:hover, .sidebar ul li a.active{
+    text-decoration: none;
+    color:  #8920c9;
+    font-size: 25px;
+    font-weight: bold;
+}
+#leftsidebar ul li{
+    padding: 7px;
+    list-style-image: url(images/arrow.png);
+}
+#leftsidebar{
+    float: left;
+}
+
+#rightsidebar{
+    float: right;
+    background-image: url("http://placeimg.com/640/480/any");
+}
+.footer{
+    height: 50px;
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+}
